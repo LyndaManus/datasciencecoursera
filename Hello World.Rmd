@@ -2,7 +2,10 @@
 title: "Hello World"
 author: "Lynda Manus"
 date: "1/5/2020"
-output: pdf_document
+output: 
+html_document:
+  Keep_md: true
+  self_contained: true
 ---
 
 ```{r setup, include=FALSE}
